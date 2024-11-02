@@ -1,0 +1,104 @@
+.progress-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 0.3s;
+}
+/* estilos.css */
+
+/* Estilos generales */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-top: 20px;
+}
+
+#seccion {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del input de tarea */
+#textoTarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Estilos de los botones */
+button {
+  margin: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:first-of-type {
+  background-color: #28a745;
+}
+
+button:last-of-type {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Barra de progreso */
+.progress {
+  height: 25px;
+  margin-bottom: 20px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.progress-bar {
+  font-weight: bold;
+}
+
+/* Lista de tareas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #f8f9fa;
+}
+
+li button {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
